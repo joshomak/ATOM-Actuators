@@ -1,6 +1,6 @@
 # ATOM-Actuators
 
-This repository contains the source code, hardware files, and documentation for the two actuators designed for the ATOM robot arm. Each actuator is 3D printed and features a unique gearbox design, an AS5600 encoder for position feedback, and is driven by a TMC2209 stepper motor driver controlled by an ESP32-S3 microcontroller. Below is a detailed breakdown of the project.
+This repository contains the source code, hardware files, and documentation for the two actuators designed for a robotic arm project I worked on during the 2024 winter break. Each actuator is 3D printed and features a unique gearbox design, an AS5600 encoder for position feedback, and is driven by a TMC2209 stepper motor driver controlled by an ESP32-S3 microcontroller. Below is a detailed breakdown of the project.
 
 
 ## Hardware
