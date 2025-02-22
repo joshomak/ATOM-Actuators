@@ -2,7 +2,6 @@
 
 This repository contains the source code, hardware files, and documentation for the two actuators designed for the ATOM robot arm. Each actuator is 3D printed and features a unique gearbox design, an AS5600 encoder for position feedback, and is driven by a TMC2209 stepper motor driver controlled by an ESP32-S3 microcontroller. Below is a detailed breakdown of the project.
 
----
 
 ## Hardware
 
@@ -24,7 +23,6 @@ This repository contains the source code, hardware files, and documentation for 
 - **Printing**: The gearboxes were designed with the Bambu Lab A1 in mind, but any printer can be used. Ensure that parts with rotational symmetry or contact surfaces have **random seams** to evenly distribute wear.
 - **Cooling**: The TMC2209 drivers can get very hot. Ensure sufficient cooling to avoid issues like melting breadboards.
 
----
 
 ## Firmware
 
@@ -47,13 +45,11 @@ The firmware for the actuators is written for the ESP32-S3 microcontroller and i
 - Velocity control and feedforward feedback control were not implemented due to time limitations.
 - Gearbox efficiency measurements were not performed.
 
----
 
 ## Bill of Materials (BOM)
 
 The BOM for each actuator is included in the `/hardware` folder. Each BOM is accompanied by a **BOM balloon callout drawing** to assist with assembly. The BOM includes all components required for each actuator, such as motors, encoders, fasteners, and bearings.
 
----
 
 ## Electrical Schematics
 
@@ -65,7 +61,6 @@ The electrical schematics for the actuators are provided in the `/electrical` fo
 ### AS5600 Encoder Pinout
 ![Encoder Pinout](images/encoder_pinout.png)
 
----
 
 ## Assembly Instructions
 
@@ -78,21 +73,17 @@ The electrical schematics for the actuators are provided in the `/electrical` fo
 3. Follow the electrical schematics to connect the ESP32-S3, TMC2209, AS5600, and stepper motor.
 4. Secure all components using the appropriate fasteners and ensure proper alignment of the gearbox and encoder.
 
----
 
 ## License
 
 This project is licensed under the **MIT License**. This permissive license allows for reuse, modification, and distribution, provided the original license terms are included. For more details, see the [LICENSE](LICENSE) file.
 
----
 
 ## Notes
 - Ensure proper heat dissipation for the TMC2209 drivers, especially at higher currents.
 - Calibrate the AS5600 encoder to ensure accurate position feedback.
 - Test the actuators at low speeds initially to avoid mechanical failures.
 
----
 
 For questions or issues, please open an issue in this repository or contact the maintainer.
 
----
