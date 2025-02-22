@@ -2,7 +2,7 @@
 
 This repository contains the source code, hardware files, and documentation for two quasi-direct-drive, closed-loop stepper motor actuators I designed and built as part of a robotic arm project during the 2024 winter break. From concept to completion, both actuators were designed, manufactured, and assembled in four days. Each actuator is 3D printed and features a unique gearbox design, an AS5600 magnetic encoder for precise position feedback, and is powered by a TMC2209 stepper motor driver controlled via an ESP32-S3 microcontroller.
 
-![Front View](images/front_view.png)
+![Front View](images/front_view.jpg)
 
 
 ## Hardware
